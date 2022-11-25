@@ -1,0 +1,20 @@
+/* Custom CSS for Hamburger in Pure CSS */
+ .line-one,
+ .line-three {
+    transform-origin: 50% 50%;
+    /* animation: line-grow ease-out 500ms; */
+}
+
+.css:hover .line-two{
+    display: none;
+}
+
+.css:hover .line-one {
+    transform: translate(0, 8px) rotate(45deg)
+}
+
+.css:hover .line-three {
+    transform: translate(0, -4px) rotate(-45deg)
+}
+
+/* Custom CSS for Hamburger in GSAP */
