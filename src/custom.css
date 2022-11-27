@@ -23,9 +23,16 @@
     height : 250px;
     width : 250px;
     margin: 3vw;
-    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    /* border-radius: 10px; */
 }
 
+
+.svgBox > .holder{
+     display: flex;
+    flex-direction: column;
+    }
 
 .container > .row{
     height: 100vh;
@@ -36,11 +43,14 @@
 
 .row > .svgBox{
     padding: 0;
+    margin: 0;
 }
 
-.svgBox > p{
-    text-align: center;
-    text-transform: uppercase;
-
+.cssline1, .cssline2, .cssline3 {
+    height : 10px;
+    width : 125px;
+    content: '';
+    margin-bottom: 8px;
+    background-color:black;
 }
 /* Custom CSS for Hamburger in GSAP */
