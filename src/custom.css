@@ -17,4 +17,30 @@
     transform: translate(0, -4px) rotate(-45deg)
 }
 
+.svgBox{
+    border: 1px solid black;
+    content: '';
+    height : 250px;
+    width : 250px;
+    margin: 3vw;
+    border-radius: 10px;
+}
+
+
+.container > .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row > .svgBox{
+    padding: 0;
+}
+
+.svgBox > p{
+    text-align: center;
+    text-transform: uppercase;
+
+}
 /* Custom CSS for Hamburger in GSAP */

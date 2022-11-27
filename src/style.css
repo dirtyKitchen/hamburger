@@ -76,7 +76,7 @@ select {
 .container {
     padding-inline: 2em;
     margin-inline: auto;
-    max-width: 80rem;
+    max-width: 90rem;
 }
 
 /* Stlying for Screen Readers. Elements will not be visible on the browser but still available in DOM */
